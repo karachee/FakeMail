@@ -1,0 +1,85 @@
+body{
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+#fake-mail-wrapper{
+  width:98%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+  padding: 10px;
+}
+
+.fake-mail-item{
+  display: flex;
+  justify-content: space-between;
+}
+
+#send-button{
+  margin-top: 10px;
+  transition:2s;
+  margin-left: 3%;
+}
+
+#actions-container{
+ /* display: flex;
+  justify-content: flex-end;*/
+}
+
+#actions-container .mail-sent{
+  margin-left: 95%;
+}
+
+.panel-primary{
+  border: none !important;
+}
+
+#message-content-wrapper{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left-hand{
+  line-height:35px;
+}
+
+.left-hand-icon{
+  margin-top: 75%;
+}
+
+.right-hand{
+  width: 97%;
+}
+
+#quill-editor {
+  max-height: 40vh;
+}
+
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.input-field input:focus + label {
+  color: #607d8b !important;
+}
+
+.input-field input:focus {
+  border-bottom: 1px solid #607d8b !important;
+  box-shadow: 0 1px 0 0 #607d8b !important;
+}
+
+.modal-table{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-table-item{
+
+}
